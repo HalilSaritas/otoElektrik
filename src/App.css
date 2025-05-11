@@ -1,0 +1,79 @@
+/* Sayfa içi anchor linklerine tıklandığında sticky navbar'ın içeriği örtmemesi için */
+.section-anchor {
+  scroll-margin-top: 50px; 
+}
+
+/* Navbar için ek stil */
+.custom-bg {
+  background-color: #143453;
+}
+
+/* Hero bölümü için ek stil */
+.hero-section {
+  overflow: hidden;
+  height: 90vh;
+}
+
+.hero-carousel,
+.carousel-item-full-height {
+  height: 100%;
+}
+
+.carousel-image-cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-caption-overlay {
+  position: absolute;
+  top: 410px;
+  padding: 2rem;
+  z-index: 1;
+}
+
+/* Sadece metin içeriği için karartı */
+.text-content-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  padding: 1.5rem; 
+  border-radius: 0.3rem; 
+  max-width: 80%; 
+  text-align: center;
+}
+
+/* Hizmet kartları için hover efekti */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Duyarlı harita için */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 75%; 
+  position: relative;
+  height: 0;
+  border: 3px solid #ddd; 
+  border-radius: 0.25rem; 
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* Link stilleri (Tasarım tercihi olarak kalabilir) */
+a {
+  color: #007bff;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none; 
+}
