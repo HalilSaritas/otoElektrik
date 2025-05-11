@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://KULLANICI_ADINIZ.github.io/DEPO_ADINIZ",
+  "homepage": "https://HalilSaritas.github.io/otoElektrik",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
